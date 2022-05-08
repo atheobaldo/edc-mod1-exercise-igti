@@ -4,6 +4,7 @@ provider "aws" {
 
 
 # Centralizar o arquivo de controle de estado do terraform
+# Criar bucket manualmente na AWS
 terraform {
   backend "s3" {
     bucket = "terraform-state-igti-theobaldo"
